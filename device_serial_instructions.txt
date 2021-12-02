@@ -1,0 +1,10 @@
+1. Create a GitHub account on github.com
+2. Create a private repository
+3. Invite mycourseresource to collaborate
+4. Download the device_serial.sh file from the
+   https://github.com/mycourseresource/MCR83 repository
+5. Change the permissions of this file to allow execution
+   sudo chmod +x device_serial.sh
+6. The script will create a new file with a file name 
+   starting 'Device_Serial_'
+7. Upload this file to your private repository
