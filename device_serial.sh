@@ -2,7 +2,7 @@
 echo "Device Serial Number Script"
 echo "Enter your forename followed by the first letter of your surname:"
 read USER_NAME
-FILE_NAME="Serial_${USER_NAME// /_}_$(date +%Y%m%d%H%M%S).txt"
+FILE_NAME="Device_Serial_${USER_NAME// /_}_$(date +%Y%m%d%H%M%S).txt"
 MODEL_NAME=$(tr -d '\0' < /proc/device-tree/model)
 printf "User:           $USER_NAME\n" >> $FILE_NAME
 printf "Class:          CN1\n" >> $FILE_NAME
